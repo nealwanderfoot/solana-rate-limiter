@@ -1,0 +1,3 @@
+# Make GitHub detect this as a Rust project
+*.ts linguist-detectable=false
+*.lock linguist-generated
