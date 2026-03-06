@@ -1,0 +1,28 @@
+# Anchor
+.anchor
+
+# Rust build artifacts
+target/
+
+# Solana keypairs — NEVER commit these
+**/*-keypair.json
+/test-ledger/
+
+# Node
+node_modules/
+dist/
+.yarn/
+yarn-error.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Misc
+**/*.rs.bk
+.env
